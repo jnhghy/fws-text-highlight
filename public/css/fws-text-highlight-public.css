@@ -1,0 +1,15 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .fws-text-to-highlight {
+ 	background: linear-gradient(to left, transparent 50%, rgb(255, 255, 0) 50%);
+    background-size: 200% 100% !important;
+    background-position:right top !important;
+    transition:all 2s ease !important;
+}
+
+.fws-text-highlighted {
+    background-position:left top !important;
+}
